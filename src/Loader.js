@@ -1,5 +1,5 @@
 import React from "react";
-
+import img from '../src/Modules/Images/WhatsApp Image 2024-06-27 at 09.12.14_c90debff.jpg'
 const Loader = () => {
   const containerStyle = {
     display: "flex",
@@ -56,7 +56,8 @@ const Loader = () => {
       <style>{keyframes}</style>
       <img
         alt="Logo"
-        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTfwaFQyGqiy3UUxcssMMeL2WHM3jRi2tQZpntenC7jBBWbCLuqmfd8gxJFRR1eQFx818&usqp=CAU"
+        //src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTfwaFQyGqiy3UUxcssMMeL2WHM3jRi2tQZpntenC7jBBWbCLuqmfd8gxJFRR1eQFx818&usqp=CAU"
+        src={img}
         style={imgLogoStyle}
       />
       <div style={itemStyle}></div>
